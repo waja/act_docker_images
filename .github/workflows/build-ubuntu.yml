@@ -9,6 +9,8 @@ on:
       - 'linux/ubuntu/**'
       - 'build.ps1'
     branches:
+      - $default-branch
+      - 'development'
       - 'master'
   pull_request:
     paths:
