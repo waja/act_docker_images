@@ -52,7 +52,6 @@ jobs:
         TAG:
           - 24.04
           - 22.04
-          - 20.04
     steps:
       - uses: actions/setup-go@v5
         with:
@@ -240,7 +239,6 @@ jobs:
         TAG:
           - 24.04
           - 22.04
-          - 20.04
         TYPE:
           - go
           - js
